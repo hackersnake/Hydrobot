@@ -99,6 +99,67 @@ The robot autonomously navigates waterways, detects and collects surface debris,
 4. Connect your Raspberry Pi to the Arduino Uno via USB.
 
 5. Set up your robot's hardware according to the schematic in `docs/hardware_setup.pdf`.
+   STEPS:-# SAP Hydrobot
+## Installation
+
+### Prerequisites
+
+Make sure you have the following installed:
+- Node.js (v14 or later)
+- npm (v6 or later)
+
+### Installation Steps
+
+1. Clone the repository and install dependencies:
+    ```sh
+    git clone https://github.com/hackersnake/SAP_Hydrobot.git && \
+    cd SAP_Hydrobot && \
+    cd backend && \
+    npm install && \
+    cd ../frontend && \
+    npm install && \
+    npm install cross-env --save-dev
+    ```
+
+2. Start the backend server:
+    ```sh
+    cd backend && \
+    node index.js
+    ```
+
+3. Start the frontend server:
+    ```sh
+    cd ../frontend && \
+    npm start
+    ```
+4. Update the scripts section in package.json for the frontend:
+
+
+"scripts": {
+  "start": "cross-env PORT=9801 react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+
+### Notes
+
+- The backend server will be available at `http://localhost:3000`.
+- The frontend server will be available at `http://localhost:9801`.
+
+### Libraries Used
+
+- Backend:
+  - Express
+  - Socket.IO
+
+- Frontend:
+  - React
+  - Socket.IO Client
+  - Cross-Env
+  - React Scripts
+  - Testing Libraries
+
 
 ## Usage
 
