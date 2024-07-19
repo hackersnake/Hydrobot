@@ -1,6 +1,6 @@
 # Autonomous River Cleaning Robot with YOLOv8
 
-![Robot Image](hydrobot.jpg)
+![Robot Image](hydrobot1.jpg)
 
 ## Table of Contents
 1. [Overview](#overview)
