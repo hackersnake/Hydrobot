@@ -107,32 +107,67 @@ The robot autonomously navigates waterways, detects and collects surface debris,
 3. The robot will initialize and start in the MOVE state, beginning its cleaning operation.
 
 ## Code Structure
-    river-cleaning-robot/
-    ├── src/
-    │   ├── main.py
-    │   ├── object_detection.py
-    │   ├── navigation.py
-    │   ├── water_quality.py
-    │   └── data_analysis.py
-    ├── arduino/
-    │   └── motor_control/
-    │       └── motor_control.ino
-    ├── config/
-    │   ├── robot_config.yaml
-    │   └── yolov8_config.yaml
-    ├── models/
-    │   └── yolov8n.pt
-    ├── data/
-    │   └── collected_data/
-    ├── docs/
-    │   ├── hardware_setup.pdf
-    │   └── api_documentation.md
-    ├── tests/
-    │   ├── test_object_detection.py
-    │   └── test_navigation.py
-    ├── requirements.txt
-    ├── LICENSE
-    └── README.md
+    robot-dashboard/
+├── backend/
+│   ├── node_modules/
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── app.js
+│   ├── public/
+│   │   └── index.html
+├── frontend/
+│   ├── node_modules/
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   └── src/
+│       ├── components/
+│       │   ├── Dashboard/
+│       │   │   ├── RobotData.js
+│       │   │   ├── CameraFeed.js
+│       │   │   ├── RobotPathMap.js
+│       │   │   └── RobotControls.js
+│       │   ├── Navbar/
+│       │   │   └── Navbar.js
+│       │   ├── Footer/
+│       │   │   └── Footer.js
+│       │   └── App/
+│       │       ├── App.js
+│       │       ├── App.css
+│       │       ├── index.js
+│       │       └── config.js
+│       ├── assets/
+│       │   ├── images/
+│       │   └── fonts/
+│       └── index.css
+├── src/
+│   ├── main.py
+│   ├── object_detection.py
+│   ├── navigation.py
+│   ├── water_quality.py
+│   └── data_analysis.py
+├── arduino/
+│   └── motor_control/
+│       └── motor_control.ino
+├── config/
+│   ├── robot_config.yaml
+│   └── yolov8_config.yaml
+├── models/
+│   └── yolov8n.pt
+├── data/
+│   └── collected_data/
+├── docs/
+│   ├── hardware_setup.pdf
+│   └── api_documentation.md
+├── tests/
+│   ├── test_object_detection.py
+│   └── test_navigation.py
+├── requirements.txt
+├── LICENSE
+└── README.md
+
 ## State Machine
 
 The robot operates based on the following states:
@@ -202,7 +237,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 Project Maintainer: Tejaram chaudhari - tejaschaudhari131@gmail.com
 
-Project Developer Shon Gaikwad  shongaikwad10169@gmail.com
+Project Developer  Shon Gaikwad  shongaikwad10169@gmail.com
 
 Project Link: https://github.com/hackersnake/SAP_Hydrobot/
 
