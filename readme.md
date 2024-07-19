@@ -200,6 +200,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - All contributors and supporters of this project
 
 ## Contact
+Project Developer Shon Gaikwad  shongaikwad10169@gmail.com
 
 Project Maintainer: Tejaram chaudhari - tejaschaudhari131@gmail.com
 
