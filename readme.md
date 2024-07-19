@@ -1,6 +1,6 @@
 # Autonomous River Cleaning Robot with YOLOv8
 
-![Robot Image](path_to_robot_image.jpg)
+![Robot Image](hydrobot.jpg)
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -107,32 +107,32 @@ The robot autonomously navigates waterways, detects and collects surface debris,
 3. The robot will initialize and start in the MOVE state, beginning its cleaning operation.
 
 ## Code Structure
-river-cleaning-robot/
-├── src/
-│   ├── main.py
-│   ├── object_detection.py
-│   ├── navigation.py
-│   ├── water_quality.py
-│   └── data_analysis.py
-├── arduino/
-│   └── motor_control/
-│       └── motor_control.ino
-├── config/
-│   ├── robot_config.yaml
-│   └── yolov8_config.yaml
-├── models/
-│   └── yolov8n.pt
-├── data/
-│   └── collected_data/
-├── docs/
-│   ├── hardware_setup.pdf
-│   └── api_documentation.md
-├── tests/
-│   ├── test_object_detection.py
-│   └── test_navigation.py
-├── requirements.txt
-├── LICENSE
-└── README.md
+    river-cleaning-robot/
+    ├── src/
+    │   ├── main.py
+    │   ├── object_detection.py
+    │   ├── navigation.py
+    │   ├── water_quality.py
+    │   └── data_analysis.py
+    ├── arduino/
+    │   └── motor_control/
+    │       └── motor_control.ino
+    ├── config/
+    │   ├── robot_config.yaml
+    │   └── yolov8_config.yaml
+    ├── models/
+    │   └── yolov8n.pt
+    ├── data/
+    │   └── collected_data/
+    ├── docs/
+    │   ├── hardware_setup.pdf
+    │   └── api_documentation.md
+    ├── tests/
+    │   ├── test_object_detection.py
+    │   └── test_navigation.py
+    ├── requirements.txt
+    ├── LICENSE
+    └── README.md
 ## State Machine
 
 The robot operates based on the following states:
@@ -201,8 +201,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Project Maintainer: Tejaram chaudhari - tejaschaudahri131@gmail.com
+Project Maintainer: Tejaram chaudhari - tejaschaudhari131@gmail.com
 
-Project Link: [https://github.com/your-username/river-cleaning-robot](https://github.com/your-username/river-cleaning-robot)
+Project Link: https://github.com/hackersnake/SAP_Hydrobot/
 
 For more information or collaboration opportunities, please contact us or open an issue in the GitHub repository.
