@@ -106,8 +106,14 @@ The robot autonomously navigates waterways, detects and collects surface debris,
 2. Run the main Python script on your Raspberry Pi: python3 src/main.py
 3. The robot will initialize and start in the MOVE state, beginning its cleaning operation.
 
-## Code Structure
-    robot-dashboard/
+# River Cleaning Robot Dashboard
+
+This project integrates a river-cleaning robot with a dashboard for monitoring and control.
+
+## Project Structure
+
+```plaintext
+robot-dashboard/
 ├── backend/
 │   ├── node_modules/
 │   ├── package.json
@@ -167,6 +173,8 @@ The robot autonomously navigates waterways, detects and collects surface debris,
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+
+
 
 ## State Machine
 
