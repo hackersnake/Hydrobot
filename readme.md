@@ -16,9 +16,8 @@
 11. [Results](#results)
 12. [Future Prospects](#future-prospects)
 13. [Contributing](#contributing)
-14. [License](#license)
-15. [Acknowledgments](#acknowledgments)
-16. [Contact](#contact)
+14. [Acknowledgments](#acknowledgments)
+15. [Contact](#contact)
 
 ## Overview
 
