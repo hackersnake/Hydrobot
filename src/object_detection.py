@@ -3,7 +3,7 @@ import cv2
 class ObjectDetector:
     def __init__(self):
         # Load pre-trained object detection model here
-        self.model = cv2.dnn.readNetFromONNX('models/yolov8n.onnx')
+        self.model = cv2.dnn.readNetFromONNX('models/yolov8n.pt')
 
     def detect_objects(self):
         # Capture frame from camera
