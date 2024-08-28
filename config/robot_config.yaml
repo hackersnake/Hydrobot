@@ -1,0 +1,4 @@
+motor_pins:
+  left_motor: 17
+  right_motor: 18
+camera_index: 0

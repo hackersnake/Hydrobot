@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .status {
+    color: green;
+    margin-left: 10px;
+  }
+  
+  #robotPathMap {
+    height: 300px;
+    width: 100%;
+  }
+  
