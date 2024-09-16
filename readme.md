@@ -65,7 +65,6 @@ The robot autonomously navigates waterways, detects and collects surface debris,
 
 - **Object Detection**: YOLOv8 for real-time trash detection
 - **Navigation**: 
-  - SLAM (GMapping for 2D mapping)
   - A* algorithm for path planning
   - PID controller for motor control
 - **Waste Management**: 
