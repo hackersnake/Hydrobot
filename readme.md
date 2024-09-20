@@ -304,6 +304,6 @@ Project Maintainer: Tejaram chaudhari - tejaschaudhari131@gmail.com
 
 Project Developer  Shon Gaikwad  shongaikwad10169@gmail.com
 
-Project Link: https://github.com/hackersnake/SAP_Hydrobot/
+Project Link: https://github.com/hackersnake/Hydrobot
 
 For more information or collaboration opportunities, please contact us or open an issue in the GitHub repository.
