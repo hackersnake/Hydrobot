@@ -110,7 +110,7 @@ Make sure you have the following installed:
 
 1. Clone the repository and install dependencies:
     ```sh
-    git clone https://github.com/hackersnake/SAP_Hydrobot.git && \
+    git clone https://github.com/hackersnake/Hydrobot && \
     cd SAP_Hydrobot && \
     cd backend && \
     npm install && \
