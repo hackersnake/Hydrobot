@@ -90,7 +90,7 @@ The robot autonomously navigates waterways, detects and collects surface debris,
 
 ## Installation
 
-1. Clone this repository: https://github.com/hackersnake/SAP_Hydrobot
+1. Clone this repository: https://github.com/hackersnake/Hydrobot
    Cd SAP_Hydrobot
 2. Install the required Python packages: pip install -r requirements.txt
 3. Download the pre-trained YOLOv8 model: wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
